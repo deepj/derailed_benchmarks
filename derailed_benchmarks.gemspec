@@ -24,6 +24,7 @@ Gem::Specification.new do |gem|
   gem.add_dependency "rack",            "~> 1"
   gem.add_dependency "rake",            "~> 10.4"
 
+  gem.add_development_dependency "devise"
   gem.add_development_dependency "capybara", "~> 2"
-  gem.add_development_dependency "rails",    "~> 3"
+  gem.add_development_dependency "rails",    ">= 3.2"
 end
